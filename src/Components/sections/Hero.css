@@ -1,0 +1,65 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 24px;
+    gap: 60px;
+}
+.hero-content{
+    flex: 1;
+}
+.hero-content h1{
+    font-size: 56px;
+font-weight: 700;
+line-height: 1.05;
+color: #0F172A;
+}
+.description{
+    font-size: 18px;
+line-height: 1.6;
+color: #64748B;
+max-width: 520px;
+}
+.hero-actions{
+    display: flex;
+    gap: 16px;
+    margin-top: 28px;
+}
+.dashboard-preview{
+    flex: 1;
+    background: white;
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08);
+}
+.eyebrow{
+    font-size: 13px;
+font-weight: 700;
+letter-spacing: 0.12em;
+color: #2563EB;
+text-transform: uppercase;
+margin-bottom: 16px;
+}
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+.stats-card{
+    background: #F8FAFC;
+border: 1px solid #E2E8F0;
+border-radius: 10px;
+padding: 20px;
+}
+.stats-card span{
+    font-size: 28px;
+font-weight: 700;
+color: #0F172A;
+}
+.stats-card p{
+    font-size: 13px;
+color: #64748B;
+}

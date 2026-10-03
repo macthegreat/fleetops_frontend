@@ -1,0 +1,29 @@
+.btn {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 12px 22px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #2563EB;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1D4ED8;
+}
+
+.btn-secondary {
+    background-color: #FFFFFF;
+    color: #0F172A;
+    border: 1px solid #E2E8F0;
+}
+
+.btn-secondary:hover {
+    background-color: #F3F4F6;
+}
