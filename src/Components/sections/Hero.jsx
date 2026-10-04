@@ -1,24 +1,9 @@
 import './Hero.css'
 import Button from '../Button/Button'
+import DashboardPreview from '../Dashboard/DashboardPreview'
 
 const Hero = () => {
-    const stats = [
-        {
-            id: "total",
-            value: 24,
-            label: "Total Vehicles"
-        },
-        {
-            id: "active",
-            value: 18,
-            label: "Active Vehicles"
-        },
-        {
-            id: "maintenance",
-            value: 3,
-            label: "Maintenance"
-        }
-    ];
+   
     return (
         <div >
             <section className="hero">
@@ -43,19 +28,9 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div className="dashboard-preview">
-                    <h3>Fleet Overview</h3>
-                    <div className='stats-grid'>
-                    {stats.map((stat, index) => (
-                        <div className='stats-card' key={stat.id}>
-                            <span>{stat.value}</span>
-                            <p>{stat.label}</p>
-                        </div>
-                    ))}
+           
+    <DashboardPreview />
 
-                    </div>
-                   
-                </div>
             </section>
         </div>
     )
